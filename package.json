@@ -1,0 +1,35 @@
+{
+  "name": "bullmq",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bullmq": "^5.73.3",
+    "cluster-key-slot": "^1.1.2",
+    "cron-parser": "^4.9.0",
+    "debug": "^4.4.3",
+    "denque": "^2.1.0",
+    "detect-libc": "^2.1.2",
+    "ioredis": "^5.10.1",
+    "lodash.defaults": "^4.2.0",
+    "lodash.isarguments": "^3.1.0",
+    "ms": "^2.1.3",
+    "msgpackr": "^1.11.5",
+    "msgpackr-extract": "^3.0.3",
+    "node-abort-controller": "^3.1.1",
+    "node-gyp-build-optional-packages": "^5.2.2",
+    "redis-errors": "^1.2.0",
+    "redis-parser": "^3.0.0",
+    "semver": "^7.7.4",
+    "standard-as-callback": "^2.1.0",
+    "tslib": "^2.8.1",
+    "uuid": "^11.1.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
